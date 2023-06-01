@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "name_for_model": "mapbox_docs_v1",
   "name_for_human": "Mapbox Docs v1",
-  "description_for_model": "Use this tool to get information about Mapbox search api's and libraries.  Do not use this tool if the user did not ask about Mapbox.",
+  "description_for_model": "Use this tool to retrieve documents about Mapbox Web Services APIs and libraries. Users can search, query and filter through the Mapbox API documentations, which including four distinct services, Maps, Navigation, Search, and Accounts. With the /query endpoint, users can ask about a service, an API endpoint, the description, type and definition of a parameter, understand example responses and error messages, or get suggestions about which service or endpoint to use. They can also compare different endpoints and check the changelog.",
   "description_for_human": "Up to date information about Mapbox API's and libraries.",
   "auth": {
     "type": "user_http",

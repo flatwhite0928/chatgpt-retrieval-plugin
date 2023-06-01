@@ -15,8 +15,6 @@ def extract_metadata_from_document(text: str) -> Dict[str, str]:
             Given a document from a user, try to extract the following metadata:
             - source: string, one of {sources_string}
             - url: string or don't specify
-            - created_at: string or don't specify
-            - author: string or don't specify
 
             Respond with a JSON containing the extracted metadata in key value pairs. If you don't find a metadata field, don't specify it.
             """,
