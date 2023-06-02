@@ -10,7 +10,6 @@ paths:
     post:
       summary: Query
       operationId: query_query_post
-      description: Provide an array of search query objects with desired keywords, you can retrieve related documents.
       requestBody:
         content:
           application/json:
