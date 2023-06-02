@@ -10,7 +10,7 @@ paths:
     post:
       summary: Query
       operationId: query_query_post
-      description: Search query each containing a natural language query string and an optional metadata filter. Filters can help refine search results but are not necessary in most cases. You can send multiple queries to compare information from different sources or break down complex questions into sub-questions.
+      description: Search query each contains a detailed natural language query string and an optional filter. Filters can help refine search results but are not necessary in most cases. You can send multiple queries to compare information from different sources or break down complex questions into sub-questions.
       requestBody:
         content:
           application/json:
@@ -137,7 +137,7 @@ components:
       properties:
         queries:
           type: array
-          description: This is an array of search query objects, each containing a natural language query string ("query") and an optional metadata filter ("filter"). Filters can help refine search results based on criteria such as document source or time period, but are not necessary in most cases. You can send multiple queries to compare information from different sources or break down complex questions into sub-questions.
+          description: This is an array of search query objects, each containing a detailed natural language query string and an optional metadata filter. Filters can help refine search results based on criteria such as document source or time period, but are not necessary in most cases. You can send multiple queries to compare information from different sources or break down complex questions into sub-questions.
           items:
             $ref: "#/components/schemas/Query"
     QueryResponse:
